@@ -1,0 +1,15 @@
+name: SpawnerBlockSoldin
+main: me.soldin.spawnerblock.SpawnerBlockSoldin
+version: 1.0
+api-version: 1.16
+author: Soldi_n
+description: Плагин запрещает некоторых мобов в спавнерах.
+commands:
+  spawnerblocksoldin:
+    description: Основная команда плагина
+    usage: /spawnerblocksoldin reload
+    permission: spawnerblocksoldin.reload
+permissions:
+  spawnerblocksoldin.reload:
+    description: Позволяет перезагружать конфиг плагина
+    default: op
